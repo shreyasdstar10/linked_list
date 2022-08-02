@@ -239,39 +239,39 @@ public class linkedlist
         four.next=fif;
         l.display(head);
 
-        // l.insertnodeAtBeginning(98);
-        // l.display(head);
+        l.insertnodeAtBeginning(98);
+        l.display(head);
 
-        // l.insertnodeAtEnd(344);
-        // l.display(head);
+        l.insertnodeAtEnd(344);
+        l.display(head);
 
-        // l.insertnodeAtposition(3, 3);
-        // l.display(head);
+        l.insertnodeAtposition(3, 3);
+        l.display(head);
 
-        // System.out.println(l.deletefirstnode().data);
-        // l.display(head);
+        System.out.println(l.deletefirstnode().data);
+        l.display(head);
 
-        // System.out.println(l.deletelastnode().data);
-        // l.display(head);
+        System.out.println(l.deletelastnode().data);
+        l.display(head);
 
-        // l.deletepositionnode(3);
-        // l.display(head);
+        l.deletepositionnode(3);
+        l.display(head);
 
-        // if(l.searchdatainlist(34))                      //search data in list  
-        // {
-        //     System.out.println("Found !");
-        // }
-        // else
-        // {
-        //     System.out.println("Not Found !");
-        // }
+        if(l.searchdatainlist(34))                      //search data in list  
+        {
+            System.out.println("Found !");
+        }
+        else
+        {
+            System.out.println("Not Found !");
+        }
 
-        // l.display(head);
-        // node newnode =l.reverse(head);
-        // l.display(newnode);
+        l.display(head);
+        node newnode =l.reverse(head);
+        l.display(newnode);
 
-        // node temp = l.midnode();
-        // System.out.println("the mid element is :"+temp.data);
+        node temp = l.midnode();
+        System.out.println("the mid element is :"+temp.data);
 
         node abc = l.nthNodefromlast(2);
         System.out.println(abc.data);
